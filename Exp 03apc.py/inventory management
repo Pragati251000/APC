@@ -1,0 +1,14 @@
+inventory = {"Pen": 20, "Book": 50, "Pencil": 10}
+
+inventory["Eraser"] = 15
+inventory["Pen"] = 30
+
+print("Inventory:", inventory)
+
+highest = max(inventory, key=inventory.get)
+print("Highest stock:", highest, inventory[highest])
+
+del inventory["Pencil"]
+
+print("Updated inventory:", inventory)
+print("Total products:", len(inventory))

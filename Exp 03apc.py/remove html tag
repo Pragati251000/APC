@@ -1,0 +1,7 @@
+import re
+
+html = input("Enter HTML content: ")
+
+text = re.sub(r"<[^>]*>", "", html)
+
+print("Clean text:", text)

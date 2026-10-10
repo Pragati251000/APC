@@ -1,0 +1,7 @@
+import re
+
+text = input("Enter text: ")
+
+pattern = r"\(?\d{3}\)?[-. ]?\d{3}[-. ]?\d{4}"
+
+print("Phone numbers:", re.findall(pattern, text))

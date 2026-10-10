@@ -1,0 +1,7 @@
+import re
+
+html = input("Enter HTML content: ")
+
+pattern = r"(?:https?://|www\.)[A-Za-z0-9.-]+\.[A-Za-z]{2,}(?:/[^\s\"'<>]*)?"
+
+print("URLs:", re.findall(pattern, html))
