@@ -68,20 +68,20 @@
 
 
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
-x = [1, 2, 3, 4]
-y = [3, 8, 1, 10]
+# x = [1, 2, 3, 4]
+# y = [3, 8, 1, 10]
 
-plt.subplot(1, 2, 1)
-plt.plot(x, y)
-plt.title("Sales")
+# plt.subplot(1, 2, 1)
+# plt.plot(x, y)
+# plt.title("Sales")
 
-plt.subplot(1, 2, 2)
-plt.bar(x, y)
-plt.title("Income")
+# plt.subplot(1, 2, 2)
+# plt.bar(x, y)
+# plt.title("Income")
 
-plt.show()
+# plt.show()
 
 
 
